@@ -13,8 +13,11 @@ Adaptive Latent Manipulation and Energy-guided Optimization</h2>
 # 🖼 Gallery
 
 We have showcased some results of cross-domain image composition using TALE below.
-<img src='https://img.shields.io/badge/Project-Page-Green'>
-<img src='https://img.shields.io/badge/Project-Page-Green'>
+
+<img src='visualization/Slide1.PNG'>
+
+<img src='visualization/Slide2.PNG'>
+
 More results can be found on our [Project page](https://tkpham3105.github.io/tale/).
 
 
