@@ -16,14 +16,19 @@ We have showcased some results of cross-domain image composition using TALE belo
 
 ### Photorealism-Sketching cross-domain composition results.
 <img src='visualization/sketch.PNG'/>
+
 ### Photorealism-Oil painting cross-domain composition results.
 <img src='visualization/oil.PNG'/>
+
 ### Photorealism same-domain composition results.
 <img src='visualization/real.PNG'/>
+
 ### Photorealism-Comic cross-domain composition results.
 <img src='visualization/comic.PNG'/>
+
 ### Photorealism-Watercolor painting cross-domain composition results.
 <img src='visualization/watercolor.PNG'/>
+
 ### Photorealism-Cartoon animation cross-domain composition results.
 <img src='visualization/cartoon.PNG'/>
 
