@@ -14,9 +14,18 @@ Adaptive Latent Manipulation and Energy-guided Optimization</h2>
 
 We have showcased some results of cross-domain image composition using TALE below.
 
-<img src='visualization/Slide1.PNG'>
-
-<img src='visualization/Slide2.PNG'>
+### Photorealism-Sketching cross-domain composition results.
+<img src='visualization/sketch.PNG'/>
+### Photorealism-Oil painting cross-domain composition results.
+<img src='visualization/oil.PNG'/>
+### Photorealism same-domain composition results.
+<img src='visualization/real.PNG'/>
+### Photorealism-Comic cross-domain composition results.
+<img src='visualization/comic.PNG'/>
+### Photorealism-Watercolor painting cross-domain composition results.
+<img src='visualization/watercolor.PNG'/>
+### Photorealism-Cartoon animation cross-domain composition results.
+<img src='visualization/cartoon.PNG'/>
 
 More results can be found on our [Project page](https://tkpham3105.github.io/tale/).
 
