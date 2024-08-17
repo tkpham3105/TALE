@@ -43,7 +43,7 @@ More results can be found on our [Project page](https://tkpham3105.github.io/tal
 ### 😸 Thank you for your interest! If you like what we're doing, please show your support by giving us a star ⭐️⭐️⭐️.
 ### 🚀 We are speeding up the development process! 
 
-## :herb: Citation
+# :herb: Citation
 If you find this code useful in your research, please consider citing:
 ```
 @article{
