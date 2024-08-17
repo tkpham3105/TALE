@@ -42,3 +42,15 @@ More results can be found on our [Project page](https://tkpham3105.github.io/tal
 ### 🧑‍💻 We'll be releasing the code very soon!
 ### 😸 Thank you for your interest! If you like what we're doing, please show your support by giving us a star ⭐️⭐️⭐️.
 ### 🚀 We are speeding up the development process! 
+
+## :herb: Citation
+If you find this code useful in your research, please consider citing:
+```
+@article{
+  pham2024tale,
+  title={TALE: Training-free Cross-domain Image Composition via Adaptive Latent Manipulation and Energy-guided Optimization},
+  author={Pham, Kien T and Chen, Jingye and Chen, Qifeng},
+  journal={arXiv preprint arXiv:2408.03637},
+  year={2024}
+}
+```
