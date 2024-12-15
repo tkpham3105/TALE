@@ -1,0 +1,11 @@
+python scripts/main.py  --ckpt ckpt/v2-1_512-ema-pruned.ckpt       \
+                        --root ./examples                          \
+                        --domain 'cross'                           \
+                        --dpm_steps 20                             \
+                        --dpm_order 2                              \
+                        --scale 5                                  \
+                        --outdir ./results                         \
+                        --tprime 12                                \
+                        --tau 5                                    \
+                        --gpu cuda:6                               \
+                        --seed 3407                                \

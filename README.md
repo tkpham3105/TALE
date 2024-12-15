@@ -1,4 +1,3 @@
-
 <div align="center">
 <h2><font color="red"> TALE </font></center> <br> <center>Training-free Cross-domain Image Composition via
 Adaptive Latent Manipulation and Energy-guided Optimization</h2>
@@ -21,17 +20,21 @@ We present TALE, a novel training-free framework harnessing the generative capab
 ## ⚙️ Setup
 Our codebase has two versions located on two different branches. Please refer to each branch for the respective environment settings. 
 The main branch is built using [Diffusers](https://github.com/huggingface/diffusers) library for better efficiency, usability, and readability.
-The original branch is built on [TF-ICON](https://github.com/Shilin-LU/TF-ICON) for reproducibility and slightly better performance.
+The original branch is built on [TF-ICON](https://github.com/Shilin-LU/TF-ICON) for reproducibility and slightly better results but is clumsy :D.
 A VRAM of 23 GB is recommended, though this may vary depending on the input samples (minimum 20 GB).
 
 ### Creating a Conda Environment
 ```
 git clone https://github.com/tkpham3105/TALE.git
 cd TALE
-conda create --name tale python=3.10 -y
+git checkout -b original
+conda env create -f environment.yaml
 conda activate tale
-pip install -r requirements.txt
 ```
+
+### Downloading Stable-Diffusion Weights
+Download the StableDiffusion weights from the [Stability AI at Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2-1-base/blob/main/v2-1_512-ema-pruned.ckpt)
+(download the `sd-v2-1_512-ema-pruned.ckpt` file), and put it under `./ckpt` folder.
 
 ## 🚀 Running TALE
 
@@ -49,8 +52,8 @@ examples
 ```
 
 ### Image Composition
-To run our TALE framework, simply execute the main.py script while playing with its arguments. 
-Note that we currently support using TALE with two diffusion pipelines: Stable Diffusion and PixArt-α. However, it can easily be adopted to other larger pipelines if GPUs permit.   
+To run our TALE framework, simply execute the run.sh script while playing with its arguments. 
+Note that for this branch we only support Stable Diffusion.  
 
 ## 🖼 Gallery
 We have showcased some results of cross-domain image composition using TALE below.
@@ -76,7 +79,7 @@ We have showcased some results of cross-domain image composition using TALE belo
 More results can be found on our [Project page](https://tkpham3105.github.io/tale/).
 
 ## ✏️ Acknowledgments
-Our work is inspired thanks to the following contributors: [TF-ICON](https://github.com/Shilin-LU/TF-ICON), [FreeDoM](https://github.com/vvictoryuki/FreeDoM), [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion), and [Prompt-to-Prompt](https://github.com/google/prompt-to-prompt).
+Our work is inspired thanks to the following contributors: [TF-ICON](https://github.com/Shilin-LU/TF-ICON), [FreeDoM](https://github.com/vvictoryuki/FreeDoM). [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion), and [Prompt-to-Prompt](https://github.com/google/prompt-to-prompt).
 
 ## :herb: Citation
 If you find this code useful in your research, please show your support by giving us a star ⭐️⭐️⭐️ and consider citing:
