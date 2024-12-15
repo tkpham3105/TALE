@@ -27,7 +27,7 @@ A VRAM of 23 GB is recommended, though this may vary depending on the input samp
 ```
 git clone https://github.com/tkpham3105/TALE.git
 cd TALE
-git checkout -b original
+git checkout original
 conda env create -f environment.yaml
 conda activate tale
 ```
