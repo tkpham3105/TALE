@@ -5,7 +5,7 @@ Adaptive Latent Manipulation and Energy-guided Optimization</h2>
 
 [Kien T. Pham](https://tkpham3105.github.io/), [Jingye Chen](https://jingyechen.github.io/), [Qifeng Chen](https://cqf.io)
 
-<a href='https://doi.org/10.1145/3664647.3681079'><img src='https://img.shields.io/badge/MM24-Proceedings-blue'></a> <a href='https://arxiv.org/abs/2408.03637'><img src='https://img.shields.io/badge/ArXiv-2408.03637-red'></a> <a href='https://tkpham3105.github.io/tale/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  ![Views](https://visitor-badge.laobi.icu/badge?page_id=tkpham3105.TALE&left_color=green&right_color=red) [![GitHub](https://img.shields.io/github/stars/tkpham3105/TALE?style=social)](https://github.com/tkpham3105/TALE)
+<a href='https://doi.org/10.1145/3664647.3681079'><img src='https://img.shields.io/badge/MM24-Proceedings-blue'></a> <a href='https://arxiv.org/abs/2408.03637'><img src='https://img.shields.io/badge/ArXiv-2408.03637-red'></a> <a href='https://tkpham3105.github.io/TALE/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  ![Views](https://visitor-badge.laobi.icu/badge?page_id=tkpham3105.TALE&left_color=green&right_color=red) [![GitHub](https://img.shields.io/github/stars/tkpham3105/TALE?style=social)](https://github.com/tkpham3105/TALE)
 </div>
 
 Official implementation of [TALE: Training-free Cross-domain Image Composition via Adaptive Latent Manipulation and Energy-guided Optimization](https://doi.org/10.1145/3664647.3681079).
@@ -73,7 +73,7 @@ We have showcased some results of cross-domain image composition using TALE belo
 ### Photorealism-Cartoon animation cross-domain composition results.
 ![cartoon](assets/cartoon.PNG)
 
-More results can be found on our [Project page](https://tkpham3105.github.io/tale/).
+More results can be found on our [Project page](https://tkpham3105.github.io/TALE/).
 
 ## ✏️ Acknowledgments
 Our work is inspired thanks to the following contributors: [TF-ICON](https://github.com/Shilin-LU/TF-ICON), [FreeDoM](https://github.com/vvictoryuki/FreeDoM), [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion), and [Prompt-to-Prompt](https://github.com/google/prompt-to-prompt).
