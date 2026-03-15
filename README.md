@@ -24,7 +24,7 @@ The main branch is built using [Diffusers](https://github.com/huggingface/diffus
 The original branch is built on [TF-ICON](https://github.com/Shilin-LU/TF-ICON) for reproducibility and slightly better performance.
 A VRAM of 23 GB is recommended, though this may vary depending on the input samples (minimum 20 GB).
 
-### Creating a Conda Environment
+### Installing Environment
 ```
 git clone https://github.com/tkpham3105/TALE.git
 cd TALE
