@@ -56,22 +56,22 @@ Note that we currently support using TALE with two diffusion pipelines: Stable D
 We have showcased some results of cross-domain image composition using TALE below.
 
 ### Photorealism-Sketching cross-domain composition results.
-![sketching](assets/sketch.png)
+![sketching](assets/sketch.PNG)
 
 ### Photorealism-Oil painting cross-domain composition results.
-![oil-painting](assets/oil.png)
+![oil-painting](assets/oil.PNG)
 
 ### Photorealism same-domain composition results.
-![photorealism](assets/real.png)
+![photorealism](assets/real.PNG)
 
 ### Photorealism-Comic cross-domain composition results.
-![comic](assets/comic.png)
+![comic](assets/comic.PNG)
 
 ### Photorealism-Watercolor painting cross-domain composition results.
-![water-color](assets/watercolor.png)
+![water-color](assets/watercolor.PNG)
 
 ### Photorealism-Cartoon animation cross-domain composition results.
-![cartoon](assets/cartoon.png)
+![cartoon](assets/cartoon.PNG)
 
 More results can be found on our [Project page](https://tkpham3105.github.io/TALE/).
 
